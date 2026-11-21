@@ -1,0 +1,9 @@
+<svg width="1080" height="1350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0F172A"/>
+  <rect x="60" y="60" width="960" height="60" fill="#1E293B" rx="8"/>
+  <text x="90" y="100" fill="#06B6D4" font-family="Liberation Sans, sans-serif" font-weight="bold" font-size="28">INCUBRIX EDITABLE SOURCE</text>
+  <text x="70" y="240" fill="#FFFFFF" font-family="Liberation Sans, sans-serif" font-weight="bold" font-size="52">Brief the decision, then the deliverable</text>
+  <rect x="60" y="320" width="960" height="600" fill="#1E293B" stroke="#334155" stroke-width="2" rx="24"/>
+  <text x="100" y="420" fill="#E2E8F0" font-family="Liberation Sans, sans-serif" font-size="36">Try this: replace "make it punchier" with "start at the answer, remove the repeated example and keep the warning". Feedback should point to a visible change.</text>
+  <text x="70" y="1250" fill="#10B981" font-family="Liberation Sans, sans-serif" font-weight="bold" font-size="24">IncuBrix Content Engine • Licensed Output</text>
+</svg>

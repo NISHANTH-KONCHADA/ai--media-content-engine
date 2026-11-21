@@ -1,0 +1,34 @@
+{
+  "asset_id": "A009",
+  "format": "Short video (9:16)",
+  "resolution": "1080x1920",
+  "target_duration_sec": 12.0,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 3.0,
+      "type": "hook",
+      "text": "A save-focused carousel and a signup-focused post answer different questions. Choose one primary measure before publishing. Keep its denominator and observation window consistent."
+    },
+    {
+      "scene": 2,
+      "duration": 3.0,
+      "type": "lesson",
+      "text": "Count the action that the post asked for"
+    },
+    {
+      "scene": 3,
+      "duration": 3.0,
+      "type": "action",
+      "text": "Try this: record results after the same observation window for each comparable post. Separate platform views from unique people. Never add platform reach numbers and call the total unique audience."
+    },
+    {
+      "scene": 4,
+      "duration": 3.0,
+      "type": "cta",
+      "text": "incubrix.com/workflow"
+    }
+  ],
+  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "rights": "100% original / CC0 licensed"
+}

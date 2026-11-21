@@ -1,0 +1,34 @@
+{
+  "asset_id": "A003",
+  "format": "Short video (9:16)",
+  "resolution": "1080x1920",
+  "target_duration_sec": 12.0,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 3.0,
+      "type": "hook",
+      "text": "Put the main idea on screen in readable words. Keep each text block short enough to read before it disappears. Use high contrast and leave space for the platform interface."
+    },
+    {
+      "scene": 2,
+      "duration": 3.0,
+      "type": "lesson",
+      "text": "Make the clip work with the sound off"
+    },
+    {
+      "scene": 3,
+      "duration": 3.0,
+      "type": "action",
+      "text": "Try this: ask someone to summarize the clip after one silent viewing. If the summary misses the point, simplify the text or give the viewer more reading time."
+    },
+    {
+      "scene": 4,
+      "duration": 3.0,
+      "type": "cta",
+      "text": "incubrix.com/workflow"
+    }
+  ],
+  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "rights": "100% original / CC0 licensed"
+}

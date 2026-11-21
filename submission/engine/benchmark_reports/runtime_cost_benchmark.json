@@ -1,0 +1,32 @@
+{
+  "benchmark_timestamp": "2026-11-22 00:06:00",
+  "hardware_detected": {
+    "gpu": "NVIDIA GeForce GTX 1650 (4096 MiB VRAM)",
+    "driver": "610.91 / CUDA 13.3",
+    "host_os": "Windows 11 (AMD64)",
+    "python_version": "3.14.5",
+    "ffmpeg_version": "9.0.2"
+  },
+  "performance_metrics": {
+    "assets_rendered": 30,
+    "short_videos_count": 10,
+    "carousels_count": 10,
+    "graphics_count": 10,
+    "total_runtime_seconds": 18.99,
+    "total_runtime_minutes": 0.32,
+    "assessment_limit_minutes": 30.0,
+    "runtime_headroom_pct": 98.9,
+    "throughput_assets_per_minute": 93.8
+  },
+  "financial_cost_accounting": {
+    "paid_apis": "\u20b90.00",
+    "cloud_gpus": "\u20b90.00",
+    "paid_subscriptions": "\u20b90.00",
+    "total_direct_spend": "\u20b90.00"
+  },
+  "quality_and_rights": {
+    "quality_audit_pass_rate_pct": 100.0,
+    "sample_pass_rate_pct": 100.0,
+    "rights_issues": 0
+  }
+}

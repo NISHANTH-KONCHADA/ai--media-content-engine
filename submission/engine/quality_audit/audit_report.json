@@ -1,0 +1,964 @@
+{
+  "total_campaign_assets": 30,
+  "campaign_passed_all": 30,
+  "campaign_pass_rate_pct": 100.0,
+  "sample_size": 20,
+  "sample_passed_all": 20,
+  "sample_pass_rate_pct": 100.0,
+  "sample_threshold_met": true,
+  "zero_rights_issues": true,
+  "sample_audits": [
+    {
+      "asset_id": "A001",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A002",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A003",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A004",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A006",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A009",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A010",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A011",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A012",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A013",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A015",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A016",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A019",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A020",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A021",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A022",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A024",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A025",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A026",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A029",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    }
+  ],
+  "full_audits": [
+    {
+      "asset_id": "A001",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A002",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A003",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A004",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A005",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A006",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A007",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A008",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A009",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A010",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A011",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A012",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A013",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A014",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A015",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A016",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A017",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A018",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A019",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A020",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A021",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A022",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A023",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A024",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A025",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A026",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A027",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A028",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A029",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    },
+    {
+      "asset_id": "A030",
+      "checks": {
+        "verified_claims": true,
+        "platform_format_valid": true,
+        "strong_hook": true,
+        "caption_and_cta": true,
+        "utm_link_valid": true,
+        "final_file_exists": true,
+        "source_file_exists": true,
+        "rights_safe": true,
+        "scheduled_date_present": true,
+        "ai_label_assessed": true
+      },
+      "passed_count": 10,
+      "total_count": 10,
+      "passed_all": true,
+      "verdict": "PASS"
+    }
+  ]
+}

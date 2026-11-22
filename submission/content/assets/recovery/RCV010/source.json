@@ -1,0 +1,35 @@
+{
+  "asset_id": "RCV010",
+  "format": "Short video (9:16)",
+  "resolution": "1080x1920",
+  "target_duration_sec": 38.06,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 6.19,
+      "type": "hook",
+      "text": "Stop doing this with your recording: An interesting sentence can become misleading when..."
+    },
+    {
+      "scene": 2,
+      "duration": 14.04,
+      "type": "lesson",
+      "text": "Give every clip a context check"
+    },
+    {
+      "scene": 3,
+      "duration": 12.29,
+      "type": "action",
+      "text": "Try this: read the sentence before and after your selection. Write down what a new viewer might misunderstand. Add context on screen or choose a different moment."
+    },
+    {
+      "scene": 4,
+      "duration": 5.54,
+      "type": "cta",
+      "text": "incubrix.com/workflow"
+    }
+  ],
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
+  "rights": "100% original / CC0 licensed"
+}

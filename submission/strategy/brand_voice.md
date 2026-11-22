@@ -20,7 +20,7 @@
 ### Approved Claims (Permitted across all copy):
 - "Transforms 1 long-form audio or video recording into 10 multi-platform social assets in under 2 minutes."
 - "100% deterministic local execution with zero required paid API subscriptions."
-- "Generates platform-native 9:16 vertical videos with 2-second visual hooks, kinetic subtitles, and synchronized audio."
+- "Generates platform-native 9:16 vertical videos with 2-second visual hooks, narrated voiceover, and readable on-screen text."
 - "Produces multi-slide 1080x1350 carousels with editable SVG vector sources."
 - "Enforces deterministic deduplication and strict quality gates before assets are marked Ready."
 

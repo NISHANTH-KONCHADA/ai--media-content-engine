@@ -2,33 +2,34 @@
   "asset_id": "A002",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 40.39,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 6.5,
       "type": "hook",
-      "text": "Write the useful outcome before writing the opening line. If the clip teaches how to brief an editor, say that. Avoid a curiosity gap that the content cannot close."
+      "text": "Stop doing this with your recording: Write the useful outcome before writing the opening line..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 14.81,
       "type": "lesson",
       "text": "A hook is a promise you must keep"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 13.54,
       "type": "action",
       "text": "Try this: draft two openings for the same lesson. Ask a target viewer what each promises. Choose the one whose promise matches the actual lesson, then test it with real viewers."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

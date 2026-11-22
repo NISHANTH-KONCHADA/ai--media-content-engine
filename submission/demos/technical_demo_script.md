@@ -1,5 +1,7 @@
 # Technical Demo Video Script (Duration: ~6 Minutes 45 Seconds)
 
+> **Rendered video:** `submission/demos/technical_demo.mp4` (narrated, ~1.9 min) was generated with `python engine/demo_videos.py` and captures a real normal run, refresh and failure recovery. Use it directly, or re-record a live unedited take following the script below (<=8 min).
+
 **Assessment Requirement:** Item 5(b) — Technical Demo, unedited, up to 8 minutes: one normal run, a refresh on new input, and recovery from one simple failure.  
 **Video Objective:** Demonstrate the technical architecture, execution speed, error resilience, and deduplication capabilities of the code.
 
@@ -11,7 +13,7 @@
 - **Visual:** Terminal window open at project root (`c:\Users\konch\OneDrive\Desktop\2`).
 - **Terminal Command:**
   ```bash
-  python -c "import torch, psutil; print('RAM:', psutil.virtual_memory().total / (1024**3))"
+  python -c "import psutil, platform; print('RAM GB:', round(psutil.virtual_memory().total / (1024**3), 2)); print(platform.platform())"
   nvidia-smi
   ffmpeg -version | Select-Object -First 1
   ```

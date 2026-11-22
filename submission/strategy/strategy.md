@@ -20,7 +20,7 @@ flowchart TD
     subgraph TopOfFunnel["Top of Funnel: Broad Discovery & Retention"]
         A1["YouTube Shorts & TikTok (9:16 Vertical Video)"]
         A2["Hook in first 2 seconds (e.g. 'Stop clipping audio manually')"]
-        A3["Kinetic subtitles & tactical 30s lesson"]
+        A3["Readable on-screen text & tactical 30s lesson"]
     end
 
     subgraph MiddleOfFunnel["Middle of Funnel: Authority & Bookmark Value"]

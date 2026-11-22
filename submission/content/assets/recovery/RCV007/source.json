@@ -1,0 +1,35 @@
+{
+  "asset_id": "RCV007",
+  "format": "Short video (9:16)",
+  "resolution": "1080x1920",
+  "target_duration_sec": 39.58,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 7.94,
+      "type": "hook",
+      "text": "Stop doing this with your recording: Put the main idea on screen in readable words. Keep each..."
+    },
+    {
+      "scene": 2,
+      "duration": 14.74,
+      "type": "lesson",
+      "text": "Make the clip work with the sound off"
+    },
+    {
+      "scene": 3,
+      "duration": 11.35,
+      "type": "action",
+      "text": "Try this: ask someone to summarize the clip after one silent viewing. If the summary misses the point, simplify the text or give the viewer more reading time."
+    },
+    {
+      "scene": 4,
+      "duration": 5.54,
+      "type": "cta",
+      "text": "incubrix.com/workflow"
+    }
+  ],
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
+  "rights": "100% original / CC0 licensed"
+}

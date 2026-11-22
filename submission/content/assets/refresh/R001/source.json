@@ -2,33 +2,34 @@
   "asset_id": "R001",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 37.78,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 9.05,
       "type": "hook",
       "text": "Capture a short sample of the room before the conversation. Keep it with the recording so the editor can hear the background conditions."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 13.78,
       "type": "lesson",
       "text": "Record a useful room-tone sample"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 9.41,
       "type": "action",
       "text": "Try this: play back the first test sentence before recording the whole interview. Correct the problem while the speaker is still available."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

@@ -1,0 +1,35 @@
+{
+  "asset_id": "RCV004",
+  "format": "Short video (9:16)",
+  "resolution": "1080x1920",
+  "target_duration_sec": 40.39,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 6.5,
+      "type": "hook",
+      "text": "Stop doing this with your recording: Write the useful outcome before writing the opening line..."
+    },
+    {
+      "scene": 2,
+      "duration": 14.81,
+      "type": "lesson",
+      "text": "A hook is a promise you must keep"
+    },
+    {
+      "scene": 3,
+      "duration": 13.54,
+      "type": "action",
+      "text": "Try this: draft two openings for the same lesson. Ask a target viewer what each promises. Choose the one whose promise matches the actual lesson, then test it with real viewers."
+    },
+    {
+      "scene": 4,
+      "duration": 5.54,
+      "type": "cta",
+      "text": "incubrix.com/workflow"
+    }
+  ],
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
+  "rights": "100% original / CC0 licensed"
+}

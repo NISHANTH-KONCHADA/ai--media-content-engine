@@ -2,33 +2,34 @@
   "asset_id": "R004",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 37.15,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 8.52,
       "type": "hook",
       "text": "Explain where an interview excerpt might appear before recording. Capture the participant's permission in the project record."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 13.99,
       "type": "lesson",
       "text": "Ask permission before reuse"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 9.1,
       "type": "action",
       "text": "Try this: include a reuse checkpoint in the editor handoff. Leave content unpublished when permission is unclear."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

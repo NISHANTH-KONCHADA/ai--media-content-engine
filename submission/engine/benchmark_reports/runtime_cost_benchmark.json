@@ -1,5 +1,5 @@
 {
-  "benchmark_timestamp": "2026-11-22 00:06:00",
+  "benchmark_timestamp": "2026-11-23 00:32:57",
   "hardware_detected": {
     "gpu": "NVIDIA GeForce GTX 1650 (4096 MiB VRAM)",
     "driver": "610.91 / CUDA 13.3",
@@ -12,11 +12,11 @@
     "short_videos_count": 10,
     "carousels_count": 10,
     "graphics_count": 10,
-    "total_runtime_seconds": 18.99,
-    "total_runtime_minutes": 0.32,
+    "total_runtime_seconds": 97.12,
+    "total_runtime_minutes": 1.62,
     "assessment_limit_minutes": 30.0,
-    "runtime_headroom_pct": 98.9,
-    "throughput_assets_per_minute": 93.8
+    "runtime_headroom_pct": 94.6,
+    "throughput_assets_per_minute": 18.5
   },
   "financial_cost_accounting": {
     "paid_apis": "\u20b90.00",

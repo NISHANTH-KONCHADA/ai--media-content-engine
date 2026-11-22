@@ -2,33 +2,34 @@
   "asset_id": "A004",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 38.06,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 6.19,
       "type": "hook",
-      "text": "An interesting sentence can become misleading when separated from its conditions. Keep qualifiers such as \"for a small team\" or \"in this example\" when they change the meaning."
+      "text": "Stop doing this with your recording: An interesting sentence can become misleading when..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 14.04,
       "type": "lesson",
       "text": "Give every clip a context check"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 12.29,
       "type": "action",
       "text": "Try this: read the sentence before and after your selection. Write down what a new viewer might misunderstand. Add context on screen or choose a different moment."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

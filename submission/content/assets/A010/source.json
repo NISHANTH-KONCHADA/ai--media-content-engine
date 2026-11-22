@@ -2,33 +2,34 @@
   "asset_id": "A010",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 41.66,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 7.78,
       "type": "hook",
-      "text": "Write a hypothesis before editing the next version. For example: a specific opening may be easier to understand than a broad question. Keep the lesson and format the same when comparing the openings."
+      "text": "Stop doing this with your recording: Write a hypothesis before editing the next version. For..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 14.9,
       "type": "lesson",
       "text": "Change one thing in the next batch"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 13.44,
       "type": "action",
       "text": "Try this: use the next batch to address one repeated misunderstanding. Keep what worked, document what changed and test again. A useful learning loop ends with a decision you can explain."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

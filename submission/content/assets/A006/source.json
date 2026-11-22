@@ -2,33 +2,34 @@
   "asset_id": "A006",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 42.07,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 8.09,
       "type": "hook",
-      "text": "Use a short video to show a sequence. Use a carousel to let a reader move through steps at their own pace. Use a text post to explain a decision and invite a specific response."
+      "text": "Stop doing this with your recording: Use a short video to show a sequence. Use a carousel to let..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 15.96,
       "type": "lesson",
       "text": "One lesson can serve three reading habits"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 12.48,
       "type": "action",
       "text": "Try this: take one editing decision and express it as a demonstration, a checklist and a short reflection. Adapt the example to the format instead of pasting the same caption everywhere."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

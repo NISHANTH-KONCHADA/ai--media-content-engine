@@ -2,33 +2,34 @@
   "asset_id": "A007",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 39.86,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 7.49,
       "type": "hook",
-      "text": "Choose the action that follows naturally from the lesson. A checklist can ask to be saved. A workflow can invite a trial on the viewer's next recording. A discussion can ask one answerable question."
+      "text": "Stop doing this with your recording: Choose the action that follows naturally from the lesson. A..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 14.9,
       "type": "lesson",
       "text": "Give the viewer one next step"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 11.93,
       "type": "action",
       "text": "Try this: read your call to action aloud. Can the viewer do it immediately? Replace vague \"learn more\" wording with the action and what they will find after clicking."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

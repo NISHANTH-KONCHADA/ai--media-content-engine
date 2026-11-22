@@ -2,33 +2,34 @@
   "asset_id": "A009",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 40.8,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 7.01,
       "type": "hook",
-      "text": "A save-focused carousel and a signup-focused post answer different questions. Choose one primary measure before publishing. Keep its denominator and observation window consistent."
+      "text": "Stop doing this with your recording: A save-focused carousel and a signup-focused post answer..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 14.66,
       "type": "lesson",
       "text": "Count the action that the post asked for"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 13.58,
       "type": "action",
       "text": "Try this: record results after the same observation window for each comparable post. Separate platform views from unique people. Never add platform reach numbers and call the total unique audience."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

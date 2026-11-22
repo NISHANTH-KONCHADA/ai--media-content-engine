@@ -1,0 +1,35 @@
+{
+  "asset_id": "RCV001",
+  "format": "Short video (9:16)",
+  "resolution": "1080x1920",
+  "target_duration_sec": 40.73,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration": 6.34,
+      "type": "hook",
+      "text": "Stop doing this with your recording: Find the sentence that answers a question your audience..."
+    },
+    {
+      "scene": 2,
+      "duration": 14.71,
+      "type": "lesson",
+      "text": "Your best clip may start halfway through"
+    },
+    {
+      "scene": 3,
+      "duration": 14.14,
+      "type": "action",
+      "text": "Try this: mark one answer, one example and one next step in your transcript. Build a clip from that sequence. Stop when the idea is complete, not when a timer reaches an arbitrary length."
+    },
+    {
+      "scene": 4,
+      "duration": 5.54,
+      "type": "cta",
+      "text": "incubrix.com/workflow"
+    }
+  ],
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
+  "rights": "100% original / CC0 licensed"
+}

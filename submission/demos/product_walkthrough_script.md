@@ -1,5 +1,7 @@
 # Product Walkthrough Video Script (Duration: ~4 Minutes 30 Seconds)
 
+> **Rendered video:** `submission/demos/product_walkthrough.mp4` (narrated, ~1.7 min) was generated with `python engine/demo_videos.py` from real on-disk assets. Use it directly, or re-record a live unedited take following the script below (<=5 min).
+
 **Assessment Requirement:** Item 5(a) — Product Walkthrough, unedited, up to 5 minutes.  
 **Video Objective:** Present the complete IncuBrix Social Growth Engine from a strategic, product, and growth perspective.
 

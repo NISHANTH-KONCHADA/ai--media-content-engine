@@ -2,33 +2,34 @@
   "asset_id": "A008",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 12.0,
+  "target_duration_sec": 43.42,
   "scenes": [
     {
       "scene": 1,
-      "duration": 3.0,
+      "duration": 8.23,
       "type": "hook",
-      "text": "Give each asset a stable ID before the first draft. Use that ID in the media filename, source file, calendar and tracking link. A file named \"final-final\" cannot tell a teammate what changed."
+      "text": "Stop doing this with your recording: Give each asset a stable ID before the first draft. Use..."
     },
     {
       "scene": 2,
-      "duration": 3.0,
+      "duration": 17.04,
       "type": "lesson",
       "text": "Name files so approval survives the handoff"
     },
     {
       "scene": 3,
-      "duration": 3.0,
+      "duration": 12.6,
       "type": "action",
       "text": "Try this: choose one post at random and trace it back to the source paragraph, editable file and approval. If a link is missing, fix the handoff before adding more posts."
     },
     {
       "scene": 4,
-      "duration": 3.0,
+      "duration": 5.54,
       "type": "cta",
       "text": "incubrix.com/workflow"
     }
   ],
-  "audio": "Procedural stereo synthesis (44.1kHz AAC)",
+  "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",
+  "audio_method": "edge-tts",
   "rights": "100% original / CC0 licensed"
 }

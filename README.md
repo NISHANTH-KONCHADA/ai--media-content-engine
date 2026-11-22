@@ -41,6 +41,8 @@ To explore the engine visually, start the local server:
 python -m uvicorn backend.app:app --host 127.0.0.1 --port 8000
 ```
 
+*Note: the dashboard page pulls React/Tailwind from public CDNs, so it needs internet access to render; the engine CLI and REST API are 100% local.*
+
 Then open your browser to **[http://localhost:8000](http://localhost:8000)** (or `/dashboard`).  
 The dashboard provides visual navigation across all 16 application modules:
 - **Module 1: Dashboard:** Campaign KPIs, ready counts, format breakdown.
@@ -49,7 +51,7 @@ The dashboard provides visual navigation across all 16 application modules:
 - **Module 5: Strategy Builder:** Creator personas, content pillars, conversion funnel.
 - **Module 6 & 7: Ingestion & Planner:** Transcript parsing, brief approval/rejection.
 - **Module 8 & 9: Static Creative Generator:** Pillow/SVG multi-slide carousels & graphics.
-- **Module 10: Short-Video Generator:** FFmpeg 9:16 vertical motion graphics with kinetic subtitles.
+- **Module 10: Short-Video Generator:** FFmpeg 9:16 vertical motion graphics with narrated Edge-TTS voiceover (procedural offline fallback) and readable on-screen text.
 - **Module 11 & 12: Quality Gate & Asset Library:** Inspection of rendered media and source files.
 - **Module 13: 30-Day Calendar:** Interactive slots and one-click `calendar.csv` export.
 - **Module 14: Audience Test:** Empirical analysis of the 22-person creator preference test.
@@ -75,6 +77,12 @@ This inspects 5 reproducible pseudo-random assets (e.g., `A001`, `A003`, `A004`,
 python engine/cli.py --run refresh
 ```
 
+### C. Regenerate the Two Submission Videos (5a/5b):
+```bash
+python engine/demo_videos.py
+```
+Produces `submission/demos/product_walkthrough.mp4` (<=5 min, narrated product tour) and `submission/demos/technical_demo.mp4` (<=8 min, captures a real normal run, refresh and failure recovery live).
+
 ---
 
 ## 5. Prerequisites & Exact Installation
@@ -88,11 +96,11 @@ python engine/cli.py --run refresh
 ### Installation (under 60 seconds):
 ```bash
 # 1. Clone repository
-git clone https://github.com/NISHANTH-KONCHADA/ai-social-media-content-engine.git
-cd ai-social-media-content-engine
+git clone https://github.com/NISHANTH-KONCHADA/ai--media-content-engine.git
+cd ai--media-content-engine
 
 # 2. Install Python dependencies
-pip install fastapi uvicorn pydantic pydantic-settings sqlalchemy pillow openpyxl psutil pytest requests
+pip install fastapi uvicorn pydantic pydantic-settings sqlalchemy pillow openpyxl psutil pytest requests edge-tts pydub
 ```
 
 *Note on Zero Cost:* No API keys or paid third-party accounts are required. A sample `.env.example` is provided for optional host/port configuration.
@@ -136,8 +144,10 @@ submission/
 │   ├── risks.md                             # Risk matrix and mitigations
 │   └── targets.md                           # 45k impressions, 2.8% ER, ₹0 budget
 ├── demos/
-│   ├── product_walkthrough_script.md        # Script for video 5(a) (<=5m)
-│   └── technical_demo_script.md             # Script for video 5(b) (<=8m)
+│   ├── product_walkthrough.mp4              # Video 5(a): narrated product tour (<=5m)
+│   ├── technical_demo.mp4                   # Video 5(b): real runs + recovery (<=8m)
+│   ├── product_walkthrough_script.md        # Spoken-word script for video 5(a)
+│   └── technical_demo_script.md             # Spoken-word script for video 5(b)
 ├── evidence/
 │   ├── screenshots/                         # Snapshot directory
 │   └── source_links.md                      # Audit links & open-source licenses

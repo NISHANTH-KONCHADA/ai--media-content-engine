@@ -13,6 +13,13 @@ def get_font(font_path: Path, size: int) -> ImageFont.FreeTypeFont:
     except Exception:
         return ImageFont.load_default()
 
+def truncate_at_word(text: str, max_chars: int) -> str:
+    """Truncate on a word boundary with an ellipsis so copy never ends mid-word."""
+    if len(text) <= max_chars:
+        return text
+    cut = text[:max_chars].rsplit(" ", 1)[0].rstrip(" ,.;:-")
+    return cut + "..."
+
 def wrap_text(text: str, font: ImageFont.FreeTypeFont, max_width: int, draw: ImageDraw.ImageDraw) -> List[str]:
     words = text.split()
     lines = []
@@ -83,7 +90,7 @@ def render_carousel_slide(
             
     # Bottom Callout / Footer
     draw.rectangle([(60, 1220), (1020, 1290)], fill="#0F172A")
-    draw.text((70, 1240), f"Swipe for step {slide_num + 1} →" if slide_num < total_slides else "Follow for more creator workflows ↗", fill="#10B981", font=font_footer)
+    draw.text((70, 1240), f"Swipe for step {slide_num + 1} ->" if slide_num < total_slides else "Follow for more creator workflows ->", fill="#10B981", font=font_footer)
     draw.text((800, 1240), "incubrix.com", fill="#64748B", font=font_footer)
     
     img.save(output_path, "PNG", quality=95)
@@ -122,7 +129,7 @@ def render_graphic(
     
     # Quote card
     draw.rounded_rectangle([(60, y_pos), (1020, y_pos + 420)], radius=20, fill="#1E293B", outline="#4F46E5", width=2)
-    quote_lines = wrap_text(f"\"{quote}\"", font_quote, 860, draw)
+    quote_lines = wrap_text(f"\"{truncate_at_word(quote, 155)}\"", font_quote, 860, draw)
     q_y = y_pos + 50
     for line in quote_lines:
         draw.text((100, q_y), line, fill="#E2E8F0", font=font_quote)

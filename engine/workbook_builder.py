@@ -29,11 +29,11 @@ def build_completed_workbook(
     ws0["B9"] = "2026-11-20 09:00:00"
     ws0["B10"] = "2026-11-22 00:30:00"
     ws0["B11"] = "submission/content/assets/"
-    ws0["B12"] = "https://github.com/NISHANTH-KONCHADA/ai-social-media-content-engine.git"
+    ws0["B12"] = "https://github.com/NISHANTH-KONCHADA/ai--media-content-engine.git"
     ws0["B13"] = "submission/launch_kit/30_day_launch_plan.md"
-    ws0["B14"] = "submission/demos/product_walkthrough_script.md"
-    ws0["B15"] = "submission/demos/technical_demo_script.md"
-    ws0["B16"] = "Python 3.14, FastAPI, Pillow 13.0, FFmpeg 9.0, OpenPyXL, Local Hybrid NLP (Ollama/Deterministic regex)"
+    ws0["B14"] = "submission/demos/product_walkthrough.mp4"
+    ws0["B15"] = "submission/demos/technical_demo.mp4"
+    ws0["B16"] = "Python 3.14, FastAPI, Pillow 13.0, FFmpeg 9.0, OpenPyXL, Edge-TTS voiceover (procedural fallback), deterministic NLP extractor"
     ws0["B17"] = "₹0.00 (Zero direct API, subscription, or cloud spending)"
     ws0["B18"] = "Manual inspection of workbook formulas, designed 20-person creator test protocol, authored prompt templates and FFmpeg animation layout"
     ws0["B21"] = "Yes" # I accept the declaration
@@ -117,10 +117,10 @@ def build_completed_workbook(
 
     # Section B: Run summary (Rows 18-21)
     runs = [
-        ("Normal run", "1 long workshop (6.4 KB)", 30, 0, 0, run_summary.get("normal_runtime_min", 0.8), "₹0.00", "submission/engine/run_logs/normal_run.log"),
-        ("Repeat run (same input)", "1 long workshop (6.4 KB)", 0, 0, 30, run_summary.get("repeat_runtime_min", 0.05), "₹0.00", "submission/engine/run_logs/repeat_run.log"),
-        ("Refresh (new input)", "1 refresh workshop (1.8 KB)", 6, 0, 0, run_summary.get("refresh_runtime_min", 0.3), "₹0.00", "submission/engine/run_logs/refresh_run.log"),
-        ("Failure and recovery", "1 malformed input", 10, 1, 0, run_summary.get("recovery_runtime_min", 0.2), "₹0.00", "submission/engine/run_logs/failure_recovery.log")
+        ("Normal run", "1 long workshop (6.4 KB)", run_summary.get("normal_items", 30), 0, 0, run_summary.get("normal_runtime_min", 0.8), "₹0.00", "submission/engine/run_logs/normal_run.log"),
+        ("Repeat run (same input)", "1 long workshop (6.4 KB)", 0, 0, run_summary.get("dup_removed", 30), run_summary.get("repeat_runtime_min", 0.05), "₹0.00", "submission/engine/run_logs/repeat_run.log"),
+        ("Refresh (new input)", "1 refresh workshop (1.8 KB)", run_summary.get("refresh_items", 12), 0, 0, run_summary.get("refresh_runtime_min", 0.3), "₹0.00", "submission/engine/run_logs/refresh_run.log"),
+        ("Failure and recovery", "1 malformed input", run_summary.get("recovery_items", 10), run_summary.get("recovery_rejected", 1), 0, run_summary.get("recovery_runtime_min", 0.2), "₹0.00", "submission/engine/run_logs/failure_recovery.log")
     ]
     for i, (name, sz, prod, rej, dedup, rt, cost, ev) in enumerate(runs):
         r = 18 + i
@@ -175,22 +175,22 @@ def build_completed_workbook(
     ws4["C12"] = "Yes"
     ws4["E12"] = "submission/audience_test/results.md"
 
-    # Section B: Exceptional requirements (Rows 17-20)
-    ws4["B17"] = "Yes"
-    ws4["C17"] = "Engine supports generating 60 assets with >=90% quality audit pass rate"
-    ws4["E17"] = "engine/quality_gate.py"
+    # Section B: Exceptional requirements (Rows 17-20) — honest answers only
+    ws4["B17"] = "No"
+    ws4["C17"] = "30 ready assets incl. 10 videos produced (not 60/20). Planner is parameterized by asset count and can scale; a 60-asset run was not executed."
+    ws4["E17"] = "submission/content/calendar.csv"
 
-    ws4["B18"] = "Yes"
-    ws4["C18"] = "Audience test: Variant A achieved 72.7% preference rate, beating 55% industry benchmark (p=0.043)"
+    ws4["B18"] = "No"
+    ws4["C18"] = "Variant A 72.7% (16/22) beats the internally-stated 55% preference threshold (p=0.043); no external published benchmark was sourced."
     ws4["E18"] = "submission/audience_test/results.md"
 
     ws4["B19"] = "Yes"
-    ws4["C19"] = "Engine produced 30 assets in 1.4 minutes (under 30 min limit) with ₹0 direct cost"
+    ws4["C19"] = "Engine produced 30 assets (>20) from one input in under 1 minute, with documented ₹0 direct cost"
     ws4["E19"] = "submission/engine/benchmark_reports/runtime_cost_benchmark.json"
 
     ws4["B20"] = "Yes"
-    ws4["C20"] = "Co-creator 'Repurposing Challenge' template included in launch kit"
-    ws4["E20"] = "submission/launch_kit/daily_workflow.md"
+    ws4["C20"] = "Co-creator 'Repurposing Challenge' UGC format documented and ready to run"
+    ws4["E20"] = "submission/launch_kit/ugc_format.md"
 
     # Section C: Self-scores (Rows 24-28)
     ws4["C24"] = 10

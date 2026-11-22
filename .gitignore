@@ -16,3 +16,7 @@ engine.db
 .DS_Store
 Thumbs.db
 *.log
+# Submission evidence logs must stay tracked
+!submission/engine/run_logs/*.log
+
+# Demo videos are generated artifacts (regenerate via engine/demo_videos.py)

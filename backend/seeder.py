@@ -16,7 +16,7 @@ def seed_database(db: Session):
             primary_color="#4F46E5",
             secondary_color="#06B6D4",
             accent_color="#10B981",
-            approved_claims="Automates multi-platform asset extraction from long-form audio/video transcripts; 100% deterministic zero-failure fallback; zero paid API cost; generates editable SVG and 9:16 vertical motion graphics with subtitles.",
+            approved_claims="Automates multi-platform asset extraction from long-form audio/video transcripts; 100% deterministic zero-failure fallback; zero paid API cost; generates editable SVG and 9:16 vertical motion graphics with narrated voiceover and readable on-screen text.",
             forbidden_claims="Do not claim fully autonomous posting without user review; do not claim magical 100x viral growth guarantees; do not claim verified product features not observed in live software."
         )
         db.add(brand)

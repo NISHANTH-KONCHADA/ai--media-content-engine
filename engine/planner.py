@@ -47,6 +47,13 @@ PLATFORMS_FORMATS = [
     ("Instagram", "Graphic"),
 ]
 
+def truncate_at_word(text: str, max_chars: int) -> str:
+    """Truncate on a word boundary with an ellipsis so copy never ends mid-word."""
+    if len(text) <= max_chars:
+        return text
+    cut = text[:max_chars].rsplit(" ", 1)[0].rstrip(" ,.;:-")
+    return cut + "..."
+
 def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     assets = []
     num_lessons = len(lessons)
@@ -61,7 +68,7 @@ def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         # Craft platform-native hook
         raw_hook = lesson["hook"]
         if fmt == "Short video":
-            hook = f"Stop doing this with your recording: {raw_hook[:60]}"
+            hook = f"Stop doing this with your recording: {truncate_at_word(raw_hook, 60)}"
             caption = (
                 f"Most creator workflows waste 6+ hours manually clipping transcripts. Here is the exact fix:\n\n"
                 f"1. {lesson['title']}\n"
@@ -72,7 +79,7 @@ def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             cta = "Get the full zero-cost repurposing workflow at incubrix.com/workflow"
             final_file = f"content/assets/{asset_id}/final_video.mp4"
             source_file = f"content/assets/{asset_id}/source.json"
-            tools = "FFmpeg 9.0.2, Python 3.14, Edge-TTS"
+            tools = "FFmpeg 9.0.2, Python 3.14, Edge-TTS voiceover (procedural fallback)"
         elif fmt == "Carousel":
             hook = f"The 5-Step Framework to Turn 1 Podcast into a Week of Content ({lesson['title']})"
             caption = (

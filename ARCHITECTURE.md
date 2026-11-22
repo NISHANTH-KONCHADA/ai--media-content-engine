@@ -15,7 +15,7 @@ flowchart TD
     end
 
     subgraph CoreEngine["2. Core Processing Engine"]
-        EXT["Content Extractor & Topic Parser (Hybrid: Ollama / Deterministic NLP)"]
+        EXT["Content Extractor & Topic Parser (Deterministic NLP)"]
         DEDUP["Deduplication & Content Fingerprinting Engine"]
         PLANNER["Content Planner & Brief Generator (Hooks, Captions, CTAs, UTMs)"]
         GATE["Quality & Rights Gate (10-Point Deterministic Validator)"]
@@ -65,7 +65,7 @@ flowchart TD
 | **07** | **Content Planner** | Synthesizes platform-native hooks, value-dense educational copy, hashtags, CTAs, UTM tracking parameters, and proposed publishing calendar slots. |
 | **08** | **Creative Brief Approval** | Human-in-the-loop review interface allowing users to inspect, edit, approve, or reject creative briefs prior to heavy media rendering. |
 | **09** | **Static Creative Generator** | Pillow and SVG rendering engine producing 1080x1350 multi-slide educational carousels and 1080x1080 promotional graphics with editable project files. |
-| **10** | **Short-Video Generator** | FFmpeg motion graphics engine creating <=60s 9:16 vertical videos featuring 2-second visual hooks, kinetic captions, synced voiceovers, progress bars, and branded end-cards. |
+| **10** | **Short-Video Generator** | FFmpeg motion graphics engine creating <=60s 9:16 vertical videos featuring 2-second visual hooks, readable on-screen text, Edge-TTS narrated voiceover (procedural fallback), progress bars, and branded end-cards. |
 | **11** | **Quality & Rights Gate** | Deterministic 10-point audit engine evaluating every asset against platform dimensions, duration, copy completeness, UTM links, rights safety, and AI labeling. Blocks `Ready` status on failure. |
 | **12** | **Asset Library** | Filterable, searchable repository of all generated assets displaying final rendered outputs (MP4/PNG), editable source files (SVG/JSON), and full metadata. |
 | **13** | **Interactive Calendar** | 30-day interactive scheduling view with daily time slots and one-click export to official 23-column `calendar.csv`. |

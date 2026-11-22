@@ -14,7 +14,7 @@ class Brand(Base):
     primary_color = Column(String(20), default="#4F46E5")
     secondary_color = Column(String(20), default="#06B6D4")
     accent_color = Column(String(20), default="#10B981")
-    approved_claims = Column(Text, default="Automates multi-platform asset extraction from long-form audio/video transcripts; 100% deterministic zero-failure fallback; zero paid API cost; generates editable SVG and 9:16 vertical motion graphics with subtitles.")
+    approved_claims = Column(Text, default="Automates multi-platform asset extraction from long-form audio/video transcripts; 100% deterministic zero-failure fallback; zero paid API cost; generates editable SVG and 9:16 vertical motion graphics with narrated voiceover and readable on-screen text.")
     forbidden_claims = Column(Text, default="Do not claim fully autonomous posting without user review; do not claim magical 100x viral growth guarantees; do not claim verified product features not observed in live software.")
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
 

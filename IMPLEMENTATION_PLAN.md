@@ -16,7 +16,7 @@
 | **Phase 3** | Product Observations, Competitor Audits, Persona & Content Strategy Engine | **COMPLETED** | 5 observations, 3 opportunities, 5 competitor audits, 5 content pillars, 3 platforms configured. |
 | **Phase 4** | Ingestion, Deduplication, Repurposing Planner & Benchmark Runner | **COMPLETED** | Ingestion of long markdown/transcripts, brief approval workflow, deduplication on repeat runs, benchmark <30 min. |
 | **Phase 5** | Static Creative Engine: Multi-Slide Carousels & High-Hook Graphics (Pillow + SVG) | **COMPLETED** | Pixel-perfect 1080x1350 carousels and 1080x1080 graphics generated with editable source files. |
-| **Phase 6** | Short-Video Engine: FFmpeg 9:16 Vertical Videos with Hooks, Subtitles, Audio | **COMPLETED** | 10 real MP4 short videos (<=60s) with 2s hooks, subtitles, audio, and visible end-cards verified by frame inspection. |
+| **Phase 6** | Short-Video Engine: FFmpeg 9:16 Vertical Videos with Hooks, Voiceover, On-Screen Text | **COMPLETED** | 10 real MP4 short videos (<=60s) with 2s hooks, narrated voiceover, readable on-screen text, and visible end-cards verified by frame inspection. |
 | **Phase 7** | Quality Gate, Interactive Calendar, Audience Test Protocol, Workbook Population | **COMPLETED** | 10-point quality audit, 23-column calendar.csv, 20-person audience test dataset, official workbook populated. |
 | **Phase 8** | End-to-End Test Suite, Performance Benchmark, Launch Kit, Submission Bundler | **COMPLETED** | All pytest suites pass, clean-machine README verified, submission folder validated, self-check all MET. |
 
@@ -44,7 +44,7 @@
 ### Phase 2: Brand Workspace, DNA & NLP Extraction (Completed)
 - [x] Implement Brand model and API endpoints (`GET / PUT /api/brand`)
 - [x] Implement Brand DNA extraction and approved/forbidden claims validator
-- [x] Build hybrid text processing layer: Ollama local adapter + deterministic NLP extractor
+- [x] Build hybrid text processing layer: deterministic NLP extractor (Ollama adapter reserved in config for future use)
 - [x] Unit tests for claim verification and brand voice adherence
 
 ### Phase 3: Research & Strategy Engine (Completed)
@@ -68,8 +68,8 @@
 
 ### Phase 6: Short-Video Production Engine (FFmpeg) (Completed)
 - [x] Implement FFmpeg video assembly script generating vertical 9:16 (1080x1920) MP4s
-- [x] Render 2-second visual hooks, kinetic animated subtitles, and progress bars
-- [x] Synthesize synchronized audio voiceover and brand end-card with CTA
+- [x] Render 2-second visual hooks, readable scene text, and progress bars
+- [x] Synthesize narrated Edge-TTS audio voiceover (procedural fallback) and brand end-card with CTA
 - [x] Frame probe validation verifying duration <=60s, aspect ratio 9:16, audio channel, and zero black frames
 - [x] Produce at least 10 short videos
 

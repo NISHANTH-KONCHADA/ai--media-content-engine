@@ -15,7 +15,8 @@ def test_completed_workbook_structure():
     assert ws0['B7'].value == "konchadanishanth2643@gmail.com"
     assert "Amrita" in str(ws0['B8'].value)
     assert ws0['B21'].value == "Yes"
-    assert ws0['B24'].value == '=COUNTIF(04_SELF_CHECK!F6:F12,"MET")&" of 7"'
+    # Sheet-name quoting style may differ (openpyxl canonicalizes '04_SELF_CHECK'!); compare normalized
+    assert ws0['B24'].value.replace("'", "") == '=COUNTIF(04_SELF_CHECK!F6:F12,"MET")&" of 7"'.replace("'", "")
     assert ws0['B25'].value == '=04_SELF_CHECK!C29'
     assert ws0['B26'].value == '=IF(B21="Yes","Yes","NOT YET")'
     assert ws0['B27'].value == '=IF(AND(COUNTIF(04_SELF_CHECK!F6:F12,"MET")=7,B21="Yes",COUNTIF(F5:F10,"Yes")=6),"YES","NOT YET - check tabs 00 and 04")'

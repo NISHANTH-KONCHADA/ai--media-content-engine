@@ -76,7 +76,7 @@ def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                 f"Save this for your next recording session.\n\n"
                 f"#CreatorWorkflow #VideoEditing #ContentOperations #PodcastProduction"
             )
-            cta = "Get the full zero-cost repurposing workflow at incubrix.com/workflow"
+            cta = "Book a free repurposing workflow walkthrough at incubrix.com/contact"
             final_file = f"content/assets/{asset_id}/final_video.mp4"
             source_file = f"content/assets/{asset_id}/source.json"
             tools = "FFmpeg 9.0.2, Python 3.14, Edge-TTS voiceover (procedural fallback)"
@@ -88,7 +88,7 @@ def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                 f"Key takeaway: {lesson['tactical_action']}\n\n"
                 f"#ContentOperations #B2BMarketing #PodcastGrowth #CreatorEconomy"
             )
-            cta = "Download the open-source repurposing template at incubrix.com/template"
+            cta = "Get the open-source repurposing engine free: github.com/NISHANTH-KONCHADA/ai--media-content-engine"
             final_file = f"content/assets/{asset_id}/slide_1.png"
             source_file = f"content/assets/{asset_id}/source.svg"
             tools = "Pillow 13.0, SVG, Python 3.14"
@@ -101,7 +101,7 @@ def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                 f"What does your current repurposing pipeline look like? Let us know below.\n\n"
                 f"#ContentStrategy #CreatorOps #Automation #IncuBrix"
             )
-            cta = "Read the complete technical breakdown at incubrix.com/growth"
+            cta = "See the technical breakdown live: book a walkthrough at incubrix.com/contact"
             final_file = f"content/assets/{asset_id}/graphic.png"
             source_file = f"content/assets/{asset_id}/source.svg"
             tools = "Pillow 13.0, SVG, Python 3.14"
@@ -109,7 +109,7 @@ def plan_30_assets(lessons: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         # UTM link
         clean_platform = platform.lower().replace(" ", "_")
         clean_format = fmt.lower().replace(" ", "_")
-        utm_link = f"https://www.incubrix.com/signup?utm_source={clean_platform}&utm_medium={clean_format}&utm_campaign=growth_engine_2027&utm_content={asset_id}"
+        utm_link = f"https://www.incubrix.com/contact?utm_source={clean_platform}&utm_medium={clean_format}&utm_campaign=growth_engine_2027&utm_content={asset_id}"
         
         # Schedule slot across 30 days (January 2027)
         day = (i % 30) + 1

@@ -41,7 +41,7 @@ flowchart TD
 
 1. **Top of Funnel (Attract):** Short-form 9:16 vertical videos (YouTube Shorts and Instagram Reels) generate algorithmic discovery. The opening 2-second hook immediately calls out creator production fatigue and demonstrates a concrete solution.
 2. **Middle of Funnel (Educate & Prove):** Multi-slide carousels and single-graphic takeaways on LinkedIn and Instagram establish technical credibility. High-density frameworks incentivize bookmark saves and professional reposts.
-3. **Bottom of Funnel (Convert):** Every asset embeds a dedicated UTM parameter (`utm_campaign=growth_engine_2027&utm_content=A001-A030`). Calls-to-action offer immediate utility (e.g., "Get the free open-source repurposing template at incubrix.com/workflow") rather than generic sales pitches.
+3. **Bottom of Funnel (Convert):** Every asset embeds a dedicated UTM parameter (`utm_campaign=growth_engine_2027&utm_content=A001-A030`). Calls-to-action drive to live destinations: walkthrough bookings at incubrix.com/contact and the open-source engine repository, rather than generic sales pitches. Note: incubrix.com has no dedicated signup page today, so /contact is the conversion endpoint until IncuBrix ships a campaign landing page.
 
 ---
 

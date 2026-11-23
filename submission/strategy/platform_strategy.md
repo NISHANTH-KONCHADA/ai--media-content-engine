@@ -26,5 +26,5 @@
 
 2. **UTM Attribution Architecture:**
    Every link follows the standardized naming taxonomy:
-   `https://www.incubrix.com/signup?utm_source={platform}&utm_medium={format}&utm_campaign=growth_engine_2027&utm_content={asset_id}`
+   `https://www.incubrix.com/contact?utm_source={platform}&utm_medium={format}&utm_campaign=growth_engine_2027&utm_content={asset_id}`
    This enables 100% granular tracking of clicks and sign-ups back to the specific creative asset and platform format.

@@ -137,7 +137,7 @@ def render_scene_frame(
 
         draw.rounded_rectangle([(120, 840), (960, 960)], radius=20, fill="#4F46E5")
         draw.text((180, 875), "GET REPURPOSING TEMPLATE ->", fill="#FFFFFF", font=font_action)
-        draw.text((120, 1020), "Visit: incubrix.com/workflow", fill="#38BDF8", font=font_footer)
+        draw.text((120, 1020), "Visit: incubrix.com/contact", fill="#38BDF8", font=font_footer)
 
     # Global Footer (left/right zones kept separate to avoid overlap)
     draw.text((70, 1840), "IncuBrix Growth Engine", fill="#64748B", font=font_footer)
@@ -150,7 +150,7 @@ def render_short_video(
     lesson: Dict[str, Any],
     output_dir: Path,
     hook_text: Optional[str] = None,
-    cta_text: str = "Get the full zero-cost repurposing workflow at incubrix.com/workflow"
+    cta_text: str = "Book a free repurposing workflow walkthrough at incubrix.com/contact"
 ) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
     frames_dir = output_dir / "temp_frames"
@@ -163,7 +163,7 @@ def render_short_video(
         display_hook,
         f"{lesson['title']}. {_truncate_at_word(lesson['core_body'], 160)}",
         _truncate_at_word(lesson["tactical_action"], 180),
-        "Get the full zero cost repurposing workflow at incubrix dot com."
+        "Book a free repurposing workflow walkthrough at incubrix dot com."
     ]
 
     # Synthesize per-scene voiceover clips (Edge-TTS, procedural fallback)
@@ -201,7 +201,7 @@ def render_short_video(
             {"scene": 1, "duration": round(scene_durations[0], 2), "type": "hook", "text": display_hook},
             {"scene": 2, "duration": round(scene_durations[1], 2), "type": "lesson", "text": lesson["title"]},
             {"scene": 3, "duration": round(scene_durations[2], 2), "type": "action", "text": lesson["tactical_action"]},
-            {"scene": 4, "duration": round(scene_durations[3], 2), "type": "cta", "text": "incubrix.com/workflow"}
+            {"scene": 4, "duration": round(scene_durations[3], 2), "type": "cta", "text": "incubrix.com/contact"}
         ],
         "audio": f"Narrated voiceover via {audio_method} (44.1kHz AAC); procedural fallback when offline",
         "audio_method": audio_method,

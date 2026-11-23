@@ -18,5 +18,5 @@
 To execute this launch plan without friction, IncuBrix must provide:
 1. **Account Permissions:** Direct administrator or contributor access to official LinkedIn, Instagram, and YouTube brand channels.
 2. **Product Artifacts:** Access to internal product demo videos and engineering release notes to turn real shipped features into content.
-3. **Tracking Integration:** Verification of Google Analytics / server-side domain handling for `incubrix.com/signup` UTM parameters.
+3. **Tracking Integration:** Verification of Google Analytics / server-side domain handling for `incubrix.com/contact` UTM parameters; recommend IncuBrix ship a dedicated `/signup` landing page for this campaign (the domain currently has no signup endpoint, so `/contact` is the interim conversion page).
 4. **Paid Boost Budget (Optional):** Optional budget of ₹0 - ₹5,000 for boosting top 2 performing organic carousels; strictly marked optional and not spent during initial organic validation.

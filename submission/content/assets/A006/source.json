@@ -2,7 +2,7 @@
   "asset_id": "A006",
   "format": "Short video (9:16)",
   "resolution": "1080x1920",
-  "target_duration_sec": 42.07,
+  "target_duration_sec": 41.93,
   "scenes": [
     {
       "scene": 1,
@@ -24,9 +24,9 @@
     },
     {
       "scene": 4,
-      "duration": 5.54,
+      "duration": 5.4,
       "type": "cta",
-      "text": "incubrix.com/workflow"
+      "text": "incubrix.com/contact"
     }
   ],
   "audio": "Narrated voiceover via edge-tts (44.1kHz AAC); procedural fallback when offline",

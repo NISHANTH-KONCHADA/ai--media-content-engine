@@ -209,7 +209,7 @@ def seed_database(db: Session):
         for p in personas:
             db.add(Persona(**p))
 
-    # 7. Audience Test Responses (N=18 qualified of 22 screened; real Google Forms data)
+    # 7. Audience Test Responses (N=22 qualified of 26 screened; real Google Forms data)
     if db.query(AudienceTestResponse).count() == 0:
         responses = [
             {"participant_id": "P01", "creator_type": "YouTube Educator", "experience_years": "1-2 years", "preferred_variant": "B", "reason": "I would choose Card B because the hook is more attention-grabbing and specific. The statistic \"87% of podcast clips fail in the first 3 seconds\" creates curiosity and makes the audience want to know what the one change is. It also gives the content a sense of credibility and urgency.", "submitted_at": "2026-11-20 14:48:04"},
@@ -230,6 +230,10 @@ def seed_database(db: Session):
             {"participant_id": "P16", "creator_type": "Video Editor", "experience_years": "3-5 years", "preferred_variant": "B", "reason": "Picked Card B since calling out \"87%\" and \"first 3 seconds\" hits a real editing pain point fast, and the top label with \"1/5\" sets clear expectations. Card A feels slightly cut off without that setup.", "submitted_at": "2026-11-23 20:57:47"},
             {"participant_id": "P17", "creator_type": "Video Podcaster", "experience_years": "1-2 years", "preferred_variant": "A", "reason": "Went with Card A-ending on \"...starts halfway through.\" hooks me right away, and the bottom swipe cue makes it easy to keep going. Card B's top header and \"1/5\" tag feel a bit clunky when I'm just browsing fast.", "submitted_at": "2026-11-23 20:58:08"},
             {"participant_id": "P18", "creator_type": "YouTube Educator", "experience_years": "3-5 years", "preferred_variant": "B", "reason": "Chose Card B because calling out \"87%\" in the \"first 3 seconds\" gets straight to a real editing problem, and the \"1/5\" header gives clear context. Card A feels a little abrupt without that lead-in.", "submitted_at": "2026-11-23 20:58:22"},
+            {"participant_id": "P19", "creator_type": "Video Editor", "experience_years": "1-2 years", "preferred_variant": "A", "reason": "ard A hooks attention immediately with a concrete time cost (\"Stop wasting 6 hours clipping podcast audio\") and pairs it with a clear, counterintuitive rule right in the opening frame (\"Your best clip starts halfway through\"). The dark card layout, header label (CREATOR WORKSHOP \u00b7 EDITING SYSTEMS), and slide indicator (1/6) make it feel like a structured system worth swiping through rather than generic advice.", "submitted_at": "2026-11-23 21:14:45"},
+            {"participant_id": "P20", "creator_type": "Content Agency Lead", "experience_years": "3-5 years", "preferred_variant": "B", "reason": "Card B feels more direct and punchy for a quick scroll stop, focusing on a cleaner visual hierarchy and immediate framing without packing too much secondary text onto slide one. It gives a clear reason to swipe to see the rest of the breakdown.", "submitted_at": "2026-11-23 21:14:58"},
+            {"participant_id": "P21", "creator_type": "YouTube Educator", "experience_years": "3-5 years", "preferred_variant": "A", "reason": "Calls out a specific pain point (\"6 hours\") immediately, gives a clear takeaway in frame one, and feels structured with the 1/6 layout.", "submitted_at": "2026-11-23 21:15:19"},
+            {"participant_id": "P22", "creator_type": "Video Podcaster", "experience_years": "3-5 years", "preferred_variant": "B", "reason": "Cleaner, punchier opening hook with less text clutter, making it faster to scan while scrolling.", "submitted_at": "2026-11-23 21:15:30"},
         ]
         for resp in responses:
             db.add(AudienceTestResponse(**resp))

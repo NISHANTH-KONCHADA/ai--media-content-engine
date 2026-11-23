@@ -17,7 +17,7 @@
 | **Phase 4** | Ingestion, Deduplication, Repurposing Planner & Benchmark Runner | **COMPLETED** | Ingestion of long markdown/transcripts, brief approval workflow, deduplication on repeat runs, benchmark <30 min. |
 | **Phase 5** | Static Creative Engine: Multi-Slide Carousels & High-Hook Graphics (Pillow + SVG) | **COMPLETED** | Pixel-perfect 1080x1350 carousels and 1080x1080 graphics generated with editable source files. |
 | **Phase 6** | Short-Video Engine: FFmpeg 9:16 Vertical Videos with Hooks, Voiceover, On-Screen Text | **COMPLETED** | 10 real MP4 short videos (<=60s) with 2s hooks, narrated voiceover, readable on-screen text, and visible end-cards verified by frame inspection. |
-| **Phase 7** | Quality Gate, Interactive Calendar, Audience Test Protocol, Workbook Population | **COMPLETED** | 10-point quality audit, 23-column calendar.csv, audience preference test dataset (22 screened / 18 qualified), official workbook populated. |
+| **Phase 7** | Quality Gate, Interactive Calendar, Audience Test Protocol, Workbook Population | **COMPLETED** | 10-point quality audit, 23-column calendar.csv, audience preference test dataset (26 screened / 22 qualified), official workbook populated. |
 | **Phase 8** | End-to-End Test Suite, Performance Benchmark, Launch Kit, Submission Bundler | **COMPLETED** | All pytest suites pass, clean-machine README verified, submission folder validated, self-check all MET. |
 
 ---

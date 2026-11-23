@@ -52,8 +52,8 @@ def test_completed_workbook_structure():
     assert ws4['C9'].value == 20
     assert ws4['C10'].value == 0
     assert ws4['C11'].value == "Yes"
-    # Honest status: 18 qualified of 20 required participants (collection in progress)
-    assert ws4['C12'].value == "No"
+    # 22 qualified participants >= 20 required (26 screened, 4 disqualified)
+    assert ws4['C12'].value == "Yes"
 
     assert ws4['C24'].value == 10
     assert ws4['C25'].value == 35

@@ -40,9 +40,9 @@
 ### 02:45 - 03:45 | Scene 4: Real-Audience Test & Empirical Evidence
 - **Visual:** Display `submission/audience_test/results.md` and demographic breakdown.
 - **Spoken Audio:**
-  > "Rather than guessing which hooks creators respond to, we ran a controlled preference test via Google Forms: 22 real responses, 18 qualified after eligibility screening.
+  > "Rather than guessing which hooks creators respond to, we ran a controlled preference test via Google Forms: 26 real responses, 22 qualified after eligibility screening.
   >
-  > We tested an Action-Oriented Problem Hook against a Curiosity-Driven Metric Hook. The result surprised us — Variant B, the metric-led hook, led 61.1% to 38.9%, though at n=18 the result is directional rather than statistically significant. So we documented the divergence honestly and flagged a live A/B test in week one of the launch plan rather than claim a validated winner."
+  > We tested an Action-Oriented Problem Hook against a Curiosity-Driven Metric Hook. The result surprised us — Variant B, the metric-led hook, led 59.1% to 40.9%, though at n=22 the result is directional rather than statistically significant. So we documented the divergence honestly and flagged a live A/B test in week one of the launch plan rather than claim a validated winner."
 
 ### 03:45 - 04:30 | Scene 5: Launch Kit & Final Delivery
 - **Visual:** Show `completed_submission_workbook.xlsx` and `30_day_launch_plan.md`.

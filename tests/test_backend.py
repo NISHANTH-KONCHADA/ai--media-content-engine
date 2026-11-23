@@ -40,10 +40,10 @@ def test_audience_stats():
     assert resp.status_code == 200
     data = resp.json()
     assert data["status"] == "COMPLETED"
-    # Real Google Forms data: 22 screened, 18 qualified (>=1yr experience)
-    assert data["sample_size"] == 18
-    assert data["variant_a"]["votes"] == 7
-    assert data["variant_b"]["votes"] == 11
+    # Real Google Forms data: 26 screened, 22 qualified (>=1yr experience)
+    assert data["sample_size"] == 22
+    assert data["variant_a"]["votes"] == 9
+    assert data["variant_b"]["votes"] == 13
     assert data["leading_variant"] == "B"
-    assert data["beats_benchmark"] is True        # 61.1% > 55% stated threshold
-    assert data["statistically_significant"] is False  # p=0.2403 > 0.05, reported honestly
+    assert data["beats_benchmark"] is True        # 59.1% > 55% stated threshold
+    assert data["statistically_significant"] is False  # p=0.2617 > 0.05, reported honestly

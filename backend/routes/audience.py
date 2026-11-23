@@ -53,5 +53,5 @@ def get_test_stats(db: Session = Depends(get_db)) -> Dict[str, Any]:
         "beats_benchmark": beats_benchmark,
         "statistically_significant": p_value < 0.05,
         "p_value_estimate": p_value,
-        "methodology": "Double-blind creator stimulus evaluation; 22 responses screened via Google Forms, 18 qualified (>=1 year production experience)"
+        "methodology": "Double-blind creator stimulus evaluation; 26 responses screened via Google Forms, 22 qualified (>=1 year production experience)"
     }

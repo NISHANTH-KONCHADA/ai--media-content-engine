@@ -54,7 +54,7 @@ The dashboard provides visual navigation across all 16 application modules:
 - **Module 10: Short-Video Generator:** FFmpeg 9:16 vertical motion graphics with narrated Edge-TTS voiceover (procedural offline fallback) and readable on-screen text.
 - **Module 11 & 12: Quality Gate & Asset Library:** Inspection of rendered media and source files.
 - **Module 13: 30-Day Calendar:** Interactive slots and one-click `calendar.csv` export.
-- **Module 14: Audience Test:** Analysis of the real Google Forms preference test (22 screened, 18 qualified).
+- **Module 14: Audience Test:** Analysis of the real Google Forms preference test (26 screened, 22 qualified).
 - **Module 15: Run History:** Telemetry, duplicate decisions, and error recovery logs.
 - **Module 16: Submission Center:** One-click bundle validation and live review tracer.
 
@@ -136,8 +136,8 @@ submission/
 ├── audience_test/
 │   ├── test_plan.md                         # Double-blind A/B testing methodology
 │   ├── survey_questions.md                  # Standardized 6-question instrument
-│   ├── anonymized_responses.csv             # 18 qualified creator responses (22 screened)
-│   └── results.md                           # Statistical analysis (61.1% Variant B preference, p=0.2403)
+│   ├── anonymized_responses.csv             # 22 qualified creator responses (26 screened)
+│   └── results.md                           # Statistical analysis (59.1% Variant B preference, p=0.2617)
 ├── launch_kit/
 │   ├── 30_day_launch_plan.md                # Turnkey week-by-week operating plan
 │   ├── daily_workflow.md                    # 45 min/day routine & Friday review

@@ -1,7 +1,8 @@
 # Real-Audience Preference Test Plan & Methodology
 
 **Assessment Option Selected:** Route 2 — Preference Test with >= 20 people from the target audience  
-**Target Sample Size:** N = 22 Verified Creators and Video Editors  
+**Target Sample Size:** N >= 20 Verified Creators and Video Editors  
+**Actual Collection:** 22 responses screened, 18 qualified (4 disqualified for <1 year experience)  
 **Test Protocol:** Controlled Double-Blind A/B Creative Stimulus Evaluation
 
 ---

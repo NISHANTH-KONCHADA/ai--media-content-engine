@@ -171,8 +171,9 @@ def build_completed_workbook(
     ws4["C11"] = "Yes"
     ws4["E11"] = "submission/engine/benchmark_reports/runtime_cost_benchmark.json"
 
-    # C12: Real-audience test completed
-    ws4["C12"] = "Yes"
+    # C12: Real-audience test completed — honest status: 22 responded, 18 met the
+    # >=1yr eligibility screen (short of 20 qualified; collection in progress)
+    ws4["C12"] = "No"
     ws4["E12"] = "submission/audience_test/results.md"
 
     # Section B: Exceptional requirements (Rows 17-20) — honest answers only
@@ -181,7 +182,8 @@ def build_completed_workbook(
     ws4["E17"] = "submission/content/calendar.csv"
 
     ws4["B18"] = "No"
-    ws4["C18"] = "Variant A 72.7% (16/22) beats the internally-stated 55% preference threshold (p=0.043); no external published benchmark was sourced."
+    ws4["C18"] = ("Variant B led 61.1% (11/18) vs the stated 55% threshold, but n=18 is below the 20-participant "
+                  "minimum and p=0.2403 is not statistically significant; we do not claim a benchmark-beating result.")
     ws4["E18"] = "submission/audience_test/results.md"
 
     ws4["B19"] = "Yes"
@@ -197,7 +199,7 @@ def build_completed_workbook(
     ws4["E24"] = "5 verified product observations, 3 evidence-backed opportunities, and 6 audited accounts with zero fabricated data"
 
     ws4["C25"] = 35
-    ws4["E25"] = "30 high-hook ready assets, 10 short videos <=60s, 10 carousels, 10 graphics across 3 platforms, plus verified 22-person preference test"
+    ws4["E25"] = "30 high-hook ready assets, 10 short videos <=60s, 10 carousels, 10 graphics across 3 platforms, plus a real Google Forms preference test (22 screened / 18 qualified)"
 
     ws4["C26"] = 20
     ws4["E26"] = "Automated engine with deduplication, refresh capability, error recovery, <2 min runtime, and ₹0 direct cost"

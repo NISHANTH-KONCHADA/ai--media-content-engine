@@ -17,7 +17,7 @@
 | **Phase 4** | Ingestion, Deduplication, Repurposing Planner & Benchmark Runner | **COMPLETED** | Ingestion of long markdown/transcripts, brief approval workflow, deduplication on repeat runs, benchmark <30 min. |
 | **Phase 5** | Static Creative Engine: Multi-Slide Carousels & High-Hook Graphics (Pillow + SVG) | **COMPLETED** | Pixel-perfect 1080x1350 carousels and 1080x1080 graphics generated with editable source files. |
 | **Phase 6** | Short-Video Engine: FFmpeg 9:16 Vertical Videos with Hooks, Voiceover, On-Screen Text | **COMPLETED** | 10 real MP4 short videos (<=60s) with 2s hooks, narrated voiceover, readable on-screen text, and visible end-cards verified by frame inspection. |
-| **Phase 7** | Quality Gate, Interactive Calendar, Audience Test Protocol, Workbook Population | **COMPLETED** | 10-point quality audit, 23-column calendar.csv, 20-person audience test dataset, official workbook populated. |
+| **Phase 7** | Quality Gate, Interactive Calendar, Audience Test Protocol, Workbook Population | **COMPLETED** | 10-point quality audit, 23-column calendar.csv, audience preference test dataset (22 screened / 18 qualified), official workbook populated. |
 | **Phase 8** | End-to-End Test Suite, Performance Benchmark, Launch Kit, Submission Bundler | **COMPLETED** | All pytest suites pass, clean-machine README verified, submission folder validated, self-check all MET. |
 
 ---
@@ -76,7 +76,7 @@
 ### Phase 7: Quality Gate, Audience Test & Workbook Integration (Completed)
 - [x] Implement deterministic 10-point Quality & Rights Gate validator
 - [x] Build interactive 30-day calendar model and 23-column `calendar.csv` exporter
-- [x] Implement 20-person creator preference test analyzer and response data recorder
+- [x] Implement creator preference test analyzer and response data recorder (20+ target)
 - [x] Build OpenPyXL workbook populator strictly preserving sheets, formulas, and dropdown validations
 
 ### Phase 8: E2E Verification, Launch Kit & Submission Packaging (Completed)
